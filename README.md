@@ -103,6 +103,17 @@ Para cada refeição:
 
 ---
 
+## ✅ Testes Automatizados
+Foram implementados testes automatizados utilizando pytest para validar o funcionamento da API.
+
+Os testes simulam requisições reais ao endpoint /predict, enviando diferentes combinações de ingredientes e verificando:
+
+- Se a API responde com status 200
+
+- Se o JSON de resposta contém as chaves esperadas (classificacao, probabilidade, detalhes_nutricionais)
+
+- Se os tipos de dados retornados estão corretos
+
 ## 📈 Resultado final
 
 Após o re-treinamento com o novo dataset:

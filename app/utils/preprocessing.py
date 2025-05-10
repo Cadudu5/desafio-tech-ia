@@ -1,25 +1,25 @@
 import pandas as pd
 
-
 csv = 'food_data_complete.csv'
 
 df = pd.read_csv(f"./data/raw/FOOD DATASET/{csv}")
 
+# Filtro do dataframe apenas para as colunas que iremos usar
 df = df[['food', 'Caloric Value', 'Carbohydrates', 'Protein', 'Fat']]
 print(df.head())
 
 # Função de classificação com base nas heurísticas
-## 
-# 
-# Nutriente	Novo limite sugerido	Justificativa
-# Calorias	≤ 600–700 kcal	Refeições principais geralmente têm entre 400–700 kcal
-# Carboidratos	≤ 60–75 g	Dependendo da porção e perfil da refeição
-# Proteínas	≥ 15–20 g	Mantido proporcionalmente
-# Gorduras	≤ 20–25 g	Considerando fontes boas (óleo, carnes magras)
-# Classificação Final
-# Saudável (1): alimento atende a pelo menos 3 dos 4 critérios
-# Não saudável (0): atende a menos de 3 critérios
-# ## 
+
+'''
+Nutriente	Novo limite sugerido	Justificativa
+Calorias	≤ 600–700 kcal	Refeições principais geralmente têm entre 400–700 kcal
+Carboidratos	≤ 60–75 g	Dependendo da porção e perfil da refeição
+Proteínas	≥ 15–20 g	Mantido proporcionalmente
+Gorduras	≤ 20–25 g	Considerando fontes boas (óleo, carnes magras)
+Classificação Final
+Saudável (1): alimento atende a pelo menos 3 dos 4 critérios
+Não saudável (0): atende a menos de 3 critérios
+''' 
 def classificar_refeicao(row):
     criterios = 0
     if row['Caloric Value'] <= 700:

@@ -1,0 +1,78 @@
+# Nutri API 🍽️
+
+API REST que classifica refeições como **saudáveis ou não saudáveis** com base em dados nutricionais. Desenvolvida com **Python 3.12**, **FastAPI** e **scikit-learn**.
+
+---
+
+### Como rodar o projeto localmente?
+
+## 1 - Clone do repositório
+git clone https://github.com/seu-usuario/nutri-api.git
+cd nutri-api
+
+## 2 - Contruir a imagem Docker
+docker build -t nutri-api .
+
+## 3 - Rodar o container
+docker run -d -p 8000:8000 nutri-api
+
+## 4 - A API ficará disponível em: http://localhost:8000/docs
+Essa é a interface interativa onde você pode testar os endpoints.
+
+## 5 - Fique livre para testar diversas combinações de até 4 ingredientes, mas certifique-se de que o ingrediente está na lista.
+	- O script em tests/generate_meals.py pode gerar aleatoriamente algumas entradas com refeições, use-o.
+	- A lista com os ingredientes está em data/data_info/alimentos catalogados.py
+
+## 🚀 Executando via Docker
+
+### 1. Construir a imagem
+
+bash
+docker build -t nutri-api .
+
+
+
+## 🧠 Raciocínio de Modelagem e Evolução
+
+Inicialmente, o modelo foi treinado a partir de um dataset contendo valores nutricionais de alimentos isolados, rotulados por uma heurística simples baseada em 4 critérios:
+
+- Calorias ≤ 700 kcal  
+- Carboidratos ≤ 75 g  
+- Proteínas ≥ 15 g  
+- Gorduras ≤ 25 g  
+
+Alimentos que atendiam a 3 ou mais critérios eram classificados como saudáveis (1), os demais como não saudáveis (0).
+
+---
+
+## 🔍 Problema identificado
+
+Na API, os usuários fornecem refeições completas compostas por múltiplos ingredientes, e os valores nutricionais são somados. No entanto, o modelo original foi treinado apenas com itens unitários, o que levou a:
+
+- Classificações incoerentes em algumas combinações de alimentos  
+- Oscilações bruscas na probabilidade de predição  
+- Penalizações excessivas quando apenas 1 critério era ultrapassado  
+
+---
+
+## ✅ Solução implementada
+
+Para resolver isso, foi criado um novo dataset com refeições compostas realisticamente (de 2 a 4 ingredientes), geradas de forma aleatória a partir da base de alimentos.
+
+Para cada refeição:
+
+- Foram somados os valores nutricionais dos itens  
+- A regra de ≥3 critérios atendidos foi reaplicada para gerar a nova label  
+- O modelo foi re-treinado com esses novos dados  
+
+---
+
+## 📈 Resultado final
+
+Após o re-treinamento com o novo dataset:
+
+- O modelo passou a classificar corretamente refeições completas  
+- A probabilidade retornada está mais estável e coerente com os nutrientes  
+- Casos marginais (como a adição de 1 ingrediente leve) não causam mais inversões na classificação  
+
+Esse ajuste permitiu que a API generalizasse bem para o caso real de uso, mantendo o raciocínio nutricional original implementado via aprendizado supervisionado.

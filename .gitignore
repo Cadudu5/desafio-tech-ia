@@ -1,0 +1,37 @@
+# Ambientes virtuais
+venv/
+.env/
+
+# Arquivos Python compilados
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Arquivos de logs
+*.log
+
+# Arquivos temporários de sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos de modelo e dados
+*.pkl
+*.joblib
+*.csv
+*.xlsx
+
+# Arquivos de configurações do VSCode ou PyCharm
+.vscode/
+.idea/
+
+# Docker
+*.env
+docker-compose.override.yml
+
+# Jupyter notebooks checkpoints (caso use)
+.ipynb_checkpoints/
+
+# Cache de pacotes
+*.egg-info/
+dist/
+build/

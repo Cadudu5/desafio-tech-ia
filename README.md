@@ -32,18 +32,37 @@ Segue a baixo um exemplo de entrada correto ✅:
     data/data_info/alimentos_catalogados.py
 - Para gerar exemplos automaticamente, execute: 
     tests/generate_meals.py (fora do container)
-
-## 🚀 Executando via Docker
-
-### 1. Construir a imagem
-
-bash
+# Construir a imagem Docker a partir do Dockerfile
 docker build -t nutri-api .
+
+# Rodar o container na porta 8000
+docker run -d -p 8000:8000 nutri-api
+
+# Verificar se o container está rodando
+docker ps
+
+# Parar o container (substitua <container_id> pelo ID real)
+docker stop <container_id>
+
+# Ver logs do container
+docker logs <container_id>
+
+# Remover o container parado
+docker rm <container_id>
+
+# Remover a imagem Docker (caso necessário)
+docker rmi nutri-api
+
+## 🐳 Uso do Docker
+O Docker foi utilizado para garantir que qualquer pessoa possa executar a aplicação de forma rápida e padronizada, sem precisar instalar manualmente bibliotecas ou configurar o ambiente local. Toda a aplicação, junto com suas dependências, é empacotada em uma imagem Docker, o que facilita o deploy e a portabilidade do projeto.
 
 ## Base de dados escolhida
 
 A base de dados usada nesse projeto se chama 'Food Nutrition Dataset', e pode ser encontrada em
 https://www.kaggle.com/datasets/utsavdey1410/food-nutrition-dataset para mais informações.
+
+## Qual modelo de aprendizado foi utilizado? 
+Neste projeto, utilizamos o Random Forest como algoritmo de classificação por sua robustez, capacidade de generalização e bom desempenho mesmo com conjuntos de dados tabulares e balanceados. O Random Forest combina múltiplas árvores de decisão para reduzir o overfitting e melhorar a precisão, o que o torna especialmente eficaz para problemas com múltiplos critérios de decisão, como neste caso, onde as classificações dependem de calorias, carboidratos, proteínas e gorduras.
 
 ## 🧠 Raciocínio de Modelagem e Evolução
 

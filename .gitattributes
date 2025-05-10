@@ -13,6 +13,9 @@
 *.yml text
 *.yaml text
 
+*.py text eol=lf
+*.ipynb text eol=lf
+
 # Arquivos binários — desabilita conversão de final de linha
 *.png binary
 *.jpg binary

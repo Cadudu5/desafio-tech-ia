@@ -7,7 +7,7 @@ API REST que classifica refeições como **saudáveis ou não saudáveis** com b
 ### Como rodar o projeto localmente?
 
 ## 1 - Clone do repositório
-git clone https://github.com/seu-usuario/nutri-api.git
+git clone https://github.com/Cadudu5/desafio-tech-ia.git
 cd nutri-api
 
 ## 2 - Contruir a imagem Docker

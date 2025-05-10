@@ -18,13 +18,14 @@ docker run -d -p 8000:8000 nutri-api
 
 ## 4 - A API ficará disponível em: http://localhost:8000/docs
 Essa é a interface interativa onde você pode testar os endpoints.
-Segue a baixo um exemplo de entrada correto:
-    - {
-        "ingredientes": [
-            "peanuts cooked",
-            "sausage mcgriddles mcdonalds"
-        ]
-    }
+Segue a baixo um exemplo de entrada correto ✅:
+-{
+    "ingredientes": [
+        "peanuts cooked",
+        "sausage mcgriddles mcdonalds"
+    ]
+}
+- Os valores nutricionais são somados e calculados automaticamente, não precisa se preocupar com isso 😉
 
 ## 5 - Fique livre para testar diversas combinações de até 4 ingredientes, mas certifique-se de que o ingrediente está na lista.
 - A lista de ingredientes está no arquivo:
@@ -82,4 +83,14 @@ Após o re-treinamento com o novo dataset:
 - A probabilidade retornada está mais estável e coerente com os nutrientes  
 - Casos marginais (como a adição de 1 ingrediente leve) não causam mais inversões na classificação  
 
+Accuracy: 1.0
+Precision: 1.0
+Recall: 1.0
+F1-Score: 1.0
+Matriz de Confusão:
+ [[ 759    0]
+ [   0 1241]]
+
+ Esse dataset teve uma precisão máxima porque entendeu a nossa lógica de classificar alimentos como saudáveis ou não.
+ Essa regra foi muito simples, deixando o problema linearmente separável, o que foi tranquilo para o Random Forest.
 Esse ajuste permitiu que a API generalizasse bem para o caso real de uso, mantendo o raciocínio nutricional original implementado via aprendizado supervisionado.

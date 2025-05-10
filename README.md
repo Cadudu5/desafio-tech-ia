@@ -7,8 +7,8 @@ API REST que classifica refeições como **saudáveis ou não saudáveis** com b
 ### Como rodar o projeto localmente?
 
 ## 1 - Clone do repositório
-git clone https://github.com/Cadudu5/desafio-tech-ia.git
-cd desafio-tech-ia
+- git clone https://github.com/Cadudu5/desafio-tech-ia.git
+- cd desafio-tech-ia (mudar para o diretório raiz do projeto)
 
 ## 2 - Contruir a imagem Docker
 docker build -t nutri-api .
@@ -29,7 +29,7 @@ Segue a baixo um exemplo de entrada correto ✅:
 
 ## 5 - Fique livre para testar diversas combinações de até 4 ingredientes, mas certifique-se de que o ingrediente está na lista.
 - A lista de ingredientes está no arquivo:
-    data/data_info/alimentos_catalogados.py
+    data/data_info/alimentos_catalogados.json
 - Para gerar exemplos automaticamente, execute: 
     tests/generate_meals.py (fora do container)
 

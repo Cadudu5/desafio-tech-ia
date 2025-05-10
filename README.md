@@ -82,6 +82,9 @@ Após o re-treinamento com o novo dataset:
 - O modelo passou a classificar corretamente refeições completas  
 - A probabilidade retornada está mais estável e coerente com os nutrientes  
 - Casos marginais (como a adição de 1 ingrediente leve) não causam mais inversões na classificação  
+Esse ajuste permitiu que a API generalizasse bem para o caso real de uso, mantendo o raciocínio nutricional original implementado via aprendizado supervisionado.
+
+## 🤖 Resultados estatísticos do treinamento do modelo
 
 Accuracy: 1.0
 Precision: 1.0
@@ -91,6 +94,6 @@ Matriz de Confusão:
  [[ 759    0]
  [   0 1241]]
 
- Esse dataset teve uma precisão máxima porque entendeu a nossa lógica de classificar alimentos como saudáveis ou não.
- Essa regra foi muito simples, deixando o problema linearmente separável, o que foi tranquilo para o Random Forest.
-Esse ajuste permitiu que a API generalizasse bem para o caso real de uso, mantendo o raciocínio nutricional original implementado via aprendizado supervisionado.
+Esse dataset teve uma precisão máxima porque entendeu a nossa lógica de classificar alimentos como saudáveis ou não.
+Essa regra foi muito simples, deixando o problema linearmente separável, o que foi tranquilo para o Random Forest.
+

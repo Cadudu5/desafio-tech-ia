@@ -62,7 +62,7 @@ docker rmi nutri-api
 A base de dados usada nesse projeto se chama 'Food Nutrition Dataset', e pode ser encontrada em
 https://www.kaggle.com/datasets/utsavdey1410/food-nutrition-dataset para mais informações.
 
-## Qual modelo de aprendizado foi utilizado? 
+## 🤖 Qual modelo de aprendizado foi utilizado? 
 Neste projeto, utilizamos o Random Forest como algoritmo de classificação por sua robustez, capacidade de generalização e bom desempenho mesmo com conjuntos de dados tabulares e balanceados. O Random Forest combina múltiplas árvores de decisão para reduzir o overfitting e melhorar a precisão, o que o torna especialmente eficaz para problemas com múltiplos critérios de decisão, como neste caso, onde as classificações dependem de calorias, carboidratos, proteínas e gorduras.
 
 ## 🧠 Raciocínio de Modelagem e Evolução

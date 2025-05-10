@@ -40,6 +40,11 @@ Segue a baixo um exemplo de entrada correto ✅:
 bash
 docker build -t nutri-api .
 
+## Base de dados escolhida
+
+A base de dados usada nesse projeto se chama 'Food Nutrition Dataset', e pode ser encontrada em
+https://www.kaggle.com/datasets/utsavdey1410/food-nutrition-dataset para mais informações.
+
 ## 🧠 Raciocínio de Modelagem e Evolução
 
 Inicialmente, o modelo foi treinado a partir de um dataset contendo valores nutricionais de alimentos isolados, rotulados por uma heurística simples baseada em 4 critérios:

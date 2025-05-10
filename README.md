@@ -8,7 +8,7 @@ API REST que classifica refeições como **saudáveis ou não saudáveis** com b
 
 ## 1 - Clone do repositório
 git clone https://github.com/Cadudu5/desafio-tech-ia.git
-cd nutri-api
+cd desafio-tech-ia
 
 ## 2 - Contruir a imagem Docker
 docker build -t nutri-api .
@@ -18,10 +18,19 @@ docker run -d -p 8000:8000 nutri-api
 
 ## 4 - A API ficará disponível em: http://localhost:8000/docs
 Essa é a interface interativa onde você pode testar os endpoints.
+Segue a baixo um exemplo de entrada correto:
+    - {
+        "ingredientes": [
+            "peanuts cooked",
+            "sausage mcgriddles mcdonalds"
+        ]
+    }
 
 ## 5 - Fique livre para testar diversas combinações de até 4 ingredientes, mas certifique-se de que o ingrediente está na lista.
-	- O script em tests/generate_meals.py pode gerar aleatoriamente algumas entradas com refeições, use-o.
-	- A lista com os ingredientes está em data/data_info/alimentos catalogados.py
+- A lista de ingredientes está no arquivo:
+    data/data_info/alimentos_catalogados.py
+- Para gerar exemplos automaticamente, execute: 
+    tests/generate_meals.py (fora do container)
 
 ## 🚀 Executando via Docker
 
@@ -29,8 +38,6 @@ Essa é a interface interativa onde você pode testar os endpoints.
 
 bash
 docker build -t nutri-api .
-
-
 
 ## 🧠 Raciocínio de Modelagem e Evolução
 

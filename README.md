@@ -18,8 +18,11 @@ docker run -d -p 8000:8000 nutri-api
 
 ## 4 - A API ficará disponível em: http://localhost:8000/docs
 Essa é a interface interativa onde você pode testar os endpoints.
-Segue a baixo um exemplo de entrada correto ✅:
--{
+- Clique no botão de editar os parâmetros (Try it out / )
+- Clique no botão Execute
+
+- Segue a baixo um exemplo de entrada correto ✅:
+- {
     "ingredientes": [
         "peanuts cooked",
         "sausage mcgriddles mcdonalds"

@@ -17,7 +17,7 @@ Thumbs.db
 # Arquivos de modelo e dados
 # *.pkl
 *.joblib
-*.csv
+# *.csv
 *.xlsx
 
 # Arquivos de configurações do VSCode ou PyCharm

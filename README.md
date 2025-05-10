@@ -86,13 +86,17 @@ Esse ajuste permitiu que a API generalizasse bem para o caso real de uso, manten
 
 ## 🤖 Resultados estatísticos do treinamento do modelo
 
-Accuracy: 1.0
-Precision: 1.0
-Recall: 1.0
-F1-Score: 1.0
-Matriz de Confusão:
- [[ 759    0]
- [   0 1241]]
+- Accuracy: 1.0
+- Precision: 1.0
+- Recall: 1.0
+- F1-Score: 1.0
+
+## 📊 Matriz de Confusão
+
+|                      | Previsto: Não Saudável | Previsto: Saudável |
+|----------------------|------------------------|---------------------|
+| **Real: Não Saudável** | 759                    | 0                   |
+| **Real: Saudável**     | 0                      | 1241                |
 
 Esse dataset teve uma precisão máxima porque entendeu a nossa lógica de classificar alimentos como saudáveis ou não.
 Essa regra foi muito simples, deixando o problema linearmente separável, o que foi tranquilo para o Random Forest.

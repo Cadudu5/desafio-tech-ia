@@ -1,0 +1,26 @@
+# Normaliza final de linha para todos os arquivos de texto
+* text=auto
+
+# Trata arquivos de código como texto (para garantir EOL correto)
+*.py text
+*.ipynb text
+*.js text
+*.ts text
+*.html text
+*.css text
+*.json text
+*.md text
+*.yml text
+*.yaml text
+
+*.py text eol=lf
+*.ipynb text eol=lf
+
+# Arquivos binários — desabilita conversão de final de linha
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.pdf binary
+*.zip binary
+*.exe binary

@@ -1,0 +1,320 @@
+,food,Caloric Value,Carbohydrates,Protein,Fat
+0,eggnog,224,20.4,11.6,10.6
+1,beer light,96,5.4,0.8,0.0
+2,beer budweiser,12,0.9,0.1,0.0
+3,weizenbier erdinger,220,0.0,0.0,18.0
+4,beer light budweiser,9,0.4,0.066,0.0
+5,beer,142,11.7,1.5,0.0
+6,root beer,202,52.3,0.0,0.0
+7,whiskey sour mix,26,6.3,0.051,0.072
+8,whiskey sour,158,13.9,0.0,0.0
+9,tequila sunrise,232,23.8,0.6,0.2
+10,daiquiri,112,4.2,0.035,0.036
+11,pina colada,245,32.0,0.6,2.7
+12,whiskey,58,0.1,0.0,0.0
+13,rum,49,0.0,0.0,0.0
+14,vodka smirnoff,13,2.0,0.0,0.4
+15,coffee liqueur,96,13.8,0.041,0.038
+16,gin,53,0.0,0.0,0.0
+17,dessert wine sweet,165,14.1,0.2,0.0
+18,chenin blanc white wine,118,4.9,0.1,0.0
+19,gamay red wine,115,3.5,0.1,0.0
+20,late harvest white wine,172,20.6,0.1,0.0
+21,gewurztraminer white wine,119,3.8,0.1,0.0
+22,burgundy red wine,172,7.4,0.1,0.0
+23,zinfandel red wine,129,4.2,0.1,0.0
+24,muller thurgau white wine,112,5.2,0.1,0.0
+25,mouvedre red wine,129,3.9,0.1,0.0
+26,table wine,123,4.0,0.1,0.0
+27,wine light,73,1.7,0.1,0.0
+28,white wine,121,3.8,0.1,0.0
+29,petite sirah red wine,125,3.9,0.1,0.0
+30,non alcoholic wine,2,0.3,0.1,0.0
+31,pinot noir red wine,121,3.4,0.1,0.0
+32,pinot gris grigio white wine,122,3.0,0.1,0.0
+33,riesling white wine,118,5.5,0.1,0.0
+34,barbera red wine,170,5.6,0.1,0.0
+35,lemberger red wine,118,3.6,0.1,0.0
+36,merlot red wine,122,3.7,0.1,0.0
+37,sangiovese red wine,126,3.9,0.1,0.0
+38,sauvignon blanc white wine,119,3.0,0.1,0.0
+39,syrah red wine,122,3.8,0.1,0.0
+40,carignane red wine,370,12.0,0.4,0.0
+41,pinot blanc white wine,119,2.9,0.1,0.0
+42,semillon white wine,121,4.6,0.1,0.0
+43,dessert wine dry,760,58.4,1.0,0.0
+44,red wine,125,3.8,0.1,0.0
+45,cabernet sauvignon red wine,166,5.2,0.1,0.0
+46,muscat white wine,123,7.8,0.1,0.0
+47,cooking wine,2,0.3,0.028,0.0
+48,chardonnay white wine,168,4.3,0.1,0.0
+49,claret red wine,122,4.4,0.1,0.0
+50,rice sake,197,7.4,0.7,0.0
+51,fume blanc white wine,121,3.3,0.1,0.0
+52,cabarnet franc red wine,122,3.6,0.1,0.0
+53,chocolate frosting,81,13.0,0.2,3.6
+54,white sugar,19,5.0,0.0,0.0
+55,egg substitute,115,4.8,24.0,0.0
+56,agave syrup,21,5.3,0.025,0.081
+57,splenda sweetener,336,91.2,0.0,0.0
+58,vanilla extract,12,0.5,0.0,0.069
+59,egg yolk dried,27,0.054,1.3,2.3
+60,granulated sugar,16,4.2,0.0,0.0
+61,baking chocolate,145,8.7,3.7,15.2
+62,bakers yeast,18,3.1,1.4,0.3
+63,fondant,106,26.4,0.0,0.009
+64,brown sugar,16,4.1,0.024,0.0
+65,white frosting dry,768,196.4,4.8,0.0
+66,maple sugar,42,10.9,0.036,0.061
+67,fructose sweetener,15,4.2,0.0,0.0
+68,saccharin sweetener,360,89.1,0.9,0.0
+69,egg white raw,17,0.2,3.6,0.063
+70,turbinado sugar,18,4.6,0.0,0.0
+71,vanilla frosting,1931,313.7,0.0,75.0
+72,aspartame sweetener,365,89.1,2.2,0.0
+73,egg raw,80,0.4,7.0,5.3
+74,pineapple topping,860,225.8,0.3,0.3
+75,egg white dried,26,0.3,5.8,0.087
+76,egg yolk raw,55,0.6,2.7,4.5
+77,baking soda,0,0.0,0.0,0.0
+78,egg dried,30,0.047,2.4,2.2
+79,strawberry topping,53,13.9,0.014,0.096
+80,bakers yeast dry,13,1.6,1.6,0.3
+81,almond paste,1040,108.5,20.4,63.0
+82,cream of tartar,8,1.8,0.0,0.0
+83,popover dry mix,631,120.7,17.7,7.3
+84,egg substitute powder,126,6.2,15.7,3.7
+85,gelatin powder,17,0.0,4.3,0.086
+86,tapioca pearls,544,134.8,0.3,0.093
+87,baking powder,2,1.3,0.0,0.0
+88,egg boiled,93,0.7,7.5,6.4
+89,millet flour,444,86.9,12.8,5.1
+90,triticale flour,439,95.1,17.1,2.4
+91,corn flour white,414,87.3,9.6,4.2
+92,rice flour brown,574,120.8,11.4,4.4
+93,sorghum flour,437,93.7,9.5,4.0
+94,cornmeal whole grain,442,93.8,9.9,4.4
+95,cornmeal white,581,124.7,11.2,2.7
+96,barley flour,511,110.3,15.5,2.4
+97,safflower seed meal,97,13.8,10.1,0.7
+98,sesame flour,658,33.3,38.5,46.4
+99,whole grain wheat flour,408,86.4,15.9,3.0
+100,corn flour yellow,422,89.9,8.1,4.5
+101,corn flour whole grain,422,89.9,8.1,4.5
+102,cottonseed flour low fat,94,10.2,14.1,0.4
+103,sunflower seed flour,13,1.4,1.9,0.013
+104,sesame meal,160,7.4,4.8,13.6
+105,acorn flour,626,68.3,9.4,37.7
+106,rice flour white,578,126.6,9.4,2.2
+107,sesame flour low fat,94,10.0,14.2,0.5
+108,potato flour,571,133.0,11.0,0.5
+109,cornmeal yellow,581,124.7,11.2,2.7
+110,rye flour,364,78.2,10.0,1.4
+111,arrowroot flour,457,112.8,0.4,0.1
+112,chickpea flour,356,53.2,20.6,6.2
+113,wheat flour,455,95.4,12.9,1.2
+114,cornstarch,488,116.8,0.3,0.03
+115,carob flour,13,5.3,0.3,0.061
+116,buckwheat flour,402,84.7,15.1,3.7
+117,pecan pie,503,63.7,6.0,27.1
+118,apple pie,331,46.4,3.0,15.6
+119,vanilla wafer pie crust,935,88.4,6.5,63.7
+120,chocolate pie crust,881,117.4,11.1,40.8
+121,apple strudel,195,29.2,2.3,8.0
+122,chocolate snack cake,200,30.2,1.8,8.0
+123,fruit fried pie,404,54.5,3.8,20.6
+124,pumpkin pie,316,40.9,7.0,14.4
+125,corn cake,35,7.5,0.7,0.2
+126,sponge snack cake,157,26.9,1.5,4.8
+127,danish pastry with nuts,280,29.7,4.6,16.4
+128,chocolate cream pie,301,33.3,2.6,19.2
+129,angel food cake,72,16.2,1.7,0.2
+130,lemon meringue pie,362,49.7,4.8,16.4
+131,danish pastry with cinnamon,349,46.9,4.8,16.7
+132,cinnamon coffeecake,238,26.6,3.9,13.3
+133,cheesecake,257,20.4,4.4,18.0
+134,fruitcake,139,26.5,1.2,3.9
+135,egg custard,293,31.0,14.2,12.9
+136,mince pie,477,79.2,4.3,17.8
+137,yellow cake with chocolate frosting,546,79.7,4.6,25.6
+138,danish pastry with fruit,335,45.1,4.8,15.9
+139,white cake with coconut frosting,399,70.8,4.9,11.5
+140,danish pastry with cheese,353,28.7,5.8,24.6
+141,graham cracker pie crust,917,117.7,9.3,45.4
+142,blueberry pie,360,49.2,4.0,17.5
+143,yellow cake with vanilla frosting,239,37.6,2.2,9.3
+144,pie crust,121,10.9,1.5,8.0
+145,chocolate cake with chocolate frosting,537,72.9,4.8,27.7
+146,cheese coffeecake,258,33.7,5.3,11.6
+147,vanilla cream pie,350,41.1,6.0,18.1
+148,pineapple cake,367,58.1,4.0,13.9
+149,peach pie,262,38.5,2.2,11.7
+150,fruit coffeecake,156,25.8,2.6,5.1
+151,pound cake,116,14.6,1.7,6.0
+152,pound cake bread,215,28.2,3.9,9.6
+153,white cake,264,42.3,4.0,9.2
+154,coffeecake with chocolate frosting,298,48.4,4.5,9.7
+155,popcorn cake,38,8.0,1.0,0.3
+156,banana cream pie,3190,390.2,52.2,161.3
+157,baked apple pie mcdonalds,91,12.3,0.9,4.4
+158,sponge cake,187,36.4,4.6,2.7
+159,yellow cake,245,36.0,3.6,9.9
+160,shortcake,98,13.7,1.7,4.0
+161,cherry pie,486,69.3,5.0,22.0
+162,dutch apple pie,397,61.0,3.0,15.8
+163,chocolate cake,352,50.7,5.0,14.3
+164,marshmallow,64,16.3,0.4,0.033
+165,sugar apple,72,18.2,1.6,0.2
+166,toffee,67,7.8,0.1,3.9
+167,vanilla fudge with nuts,123,21.1,0.8,3.9
+168,peanuts chocolate coated,21,2.0,0.5,1.3
+169,caramel with nuts chocolate coated,66,8.5,1.3,2.9
+170,gingerbread,263,36.4,2.9,12.1
+171,rolo nestle,24,0.2,0.009,1.0
+172,vanilla fudge,108,23.2,0.3,1.5
+173,halavah,328,42.3,8.7,15.1
+174,praline,189,23.2,1.3,10.1
+175,fruit juice bar,67,15.6,0.9,0.089
+176,peanut brittle,138,20.2,2.1,5.4
+177,butterscotch,21,4.8,0.079,0.2
+178,chocolate coffee beans,155,15.6,2.1,9.4
+179,nougat with almonds,56,12.9,0.5,0.2
+180,carob,135,14.1,2.0,7.8
+181,peanut butter fudge,62,12.4,0.6,1.1
+182,sugar coated almonds,17,2.4,0.4,0.6
+183,chocolate coated marshmallow,118,19.0,1.1,4.7
+184,raisins chocolate coated,390,68.4,4.1,14.8
+185,chewing gum sugarless,5,1.9,0.0,0.013
+186,chewing gum,11,2.9,0.0,0.032
+187,chocolate syrup,109,25.4,0.8,0.4
+188,chocolate fudge syrup,67,12.0,0.9,1.7
+189,m ms milk chocolate mars,207,29.9,1.8,8.9
+190,milk chocolate with almonds,216,21.9,3.7,14.1
+191,chocolate fudge,70,13.0,0.4,1.8
+192,milk chocolate with rice cereal,0,0.0,0.0,0.0
+193,m ms peanut chocolate mars,93,10.9,1.7,4.7
+194,dark chocolate,165,18.0,1.5,9.7
+195,chocolate semisweet,806,107.4,7.1,50.4
+196,after eight mints nestle,36,6.7,0.1,1.0
+197,milk chocolate,37,4.2,0.5,2.1
+198,white chocolate,162,17.8,1.8,9.6
+199,chocolate,208,24.8,1.6,14.0
+200,twix mars,146,18.8,1.4,7.2
+201,kit kat nestle,62,7.6,0.7,3.3
+202,snickers mars,280,35.1,4.3,13.6
+203,milky way mars,264,41.3,2.3,10.0
+204,clif bar,235,44.5,10.0,4.0
+205,gum drops,18,4.4,0.0,0.042
+206,skittles wild berry mars,249,56.3,0.1,2.6
+207,skittles original mars,251,56.3,0.1,2.7
+208,skittles tropical mars,251,56.3,0.1,2.7
+209,fruit leather,52,12.0,0.029,0.4
+210,taffy,60,13.7,0.087,0.5
+211,eisbonbons mac iver,23,0.0,0.0,0.0
+212,caramels,39,7.8,0.5,0.8
+213,hard candy,24,5.9,0.0,0.067
+214,jellybeans,4,1.0,0.0,0.043
+215,jellies,56,14.7,0.005,0.069
+216,wheat germ toasted,115,14.9,8.7,3.2
+217,crispy brown rice,124,27.5,2.3,1.1
+218,bran flakes asda,109,0.2,0.0,0.6
+219,amaranth cooked,251,46.0,9.3,3.9
+220,triticale,645,138.5,25.1,4.0
+221,barley raw,42,9.3,1.2,0.1
+222,bulgur dry,171,37.9,6.1,0.7
+223,cottonseed kernels roasted,754,32.6,48.6,54.1
+224,rice bran,373,58.6,15.8,24.6
+225,chaptti roti indian bread,491,0.089,7.0,2.5
+226,quinoa cooked,222,39.4,8.1,3.6
+227,dar vida swiss original,116,0.5,0.0,3.1
+228,teff cooked,255,50.0,9.8,1.6
+229,couscous dry,650,134.0,22.1,1.1
+230,weetabix weetabix,2078,0.0,0.0,11.5
+231,oat bran cooked,88,25.1,7.0,1.9
+232,buckwheat cooked,155,33.5,5.7,1.0
+233,millet puffed,74,16.8,2.7,0.7
+234,oat bran raw,23,4.9,1.3,0.5
+235,popcorn oil popped,64,5.0,0.8,4.8
+236,kamut cooked,251,52.4,11.1,1.6
+237,wheat bran,125,37.4,9.0,2.5
+238,cheese popcorn,58,5.7,1.0,3.7
+239,raisin bran crunch kelloggs,90,21.2,1.9,0.5
+240,couscous cooked,176,36.5,6.0,0.3
+241,multigrain cheerios general mills,4,1.0,0.038,0.005
+242,bulgur cooked,151,33.8,5.6,0.4
+243,popcorn air popped,31,6.2,1.0,0.4
+244,teff raw,708,141.1,25.7,4.6
+245,spelt cooked,246,51.3,10.7,1.6
+246,millet raw,756,145.7,22.0,8.4
+247,popcorn unpopped,106,20.9,3.1,1.2
+248,whole wheat cooked,150,33.2,4.8,1.0
+249,wheat sprouted,214,45.9,8.1,1.4
+250,whole wheat dry,96,21.1,3.1,0.6
+251,caramel popcorn,122,22.4,1.1,3.6
+252,wheat puffed,44,9.6,1.8,0.1
+253,roggenmischbrot sonnenblumenkerne aldi,82,0.0,0.0,3.1
+254,wheat germ,112,16.1,7.2,3.0
+255,microwave popcorn,465,49.8,7.3,26.3
+256,millet cooked,207,41.2,6.1,1.7
+257,kamut raw,627,130.9,27.3,4.1
+258,wheat durum,651,136.6,26.3,4.7
+259,sorghum,651,143.3,21.7,6.3
+260,white wheat,657,145.7,21.7,3.3
+261,rye,571,128.2,17.5,2.8
+262,spelt raw,588,122.1,25.4,4.2
+263,buckwheat raw,41,8.6,1.6,0.4
+264,honey cereali general mills,104,3.0,0.0,2.0
+265,barley cooked,193,44.3,3.5,0.7
+266,oats,39,6.6,1.7,0.7
+267,amaranth raw,37,6.5,1.4,0.7
+268,semolina,601,121.6,21.2,1.8
+269,quinoa dry,221,38.5,8.5,3.6
+270,wheat shredded,155,36.2,5.2,1.0
+271,cattail,5,1.0,0.2,0.0
+272,peanut granola bar,116,15.0,2.4,5.7
+273,vanilla bluberry bar kind,49,0.9,0.0,1.4
+274,coconut granola bar,150,15.6,1.5,9.1
+275,almond granola bar,119,14.9,1.8,6.1
+276,chocolate chip granola bar,105,17.3,1.8,3.9
+277,fruit granola bar,82,18.6,1.4,0.2
+278,granola bar,99,13.5,2.1,4.2
+279,peanut bar,209,19.0,6.2,13.5
+280,milk cereal bar,103,18.0,1.6,2.7
+281,almond rice bar,128,18.1,2.0,5.7
+282,fruit nut squares,55,10.3,0.3,1.3
+283,rice wheat cereal bar,90,16.0,2.0,2.0
+284,crisped rice bar,113,20.4,1.4,3.8
+285,brown rice raw,685,142.9,14.7,5.4
+286,rice pilaf cooked,352,61.1,7.0,8.8
+287,beef flavored rice raw,657,139.1,19.8,2.3
+288,wild rice cooked,166,35.0,6.5,0.6
+289,wild rice raw,571,119.8,23.6,1.7
+290,congee with pork shrimp and squid plus egg,178,0.0,0.0,0.3
+291,white rice pasta cooked,246,43.3,5.1,5.7
+292,chicken flavored rice raw,601,127.3,17.9,2.2
+293,instant white rice raw,361,78.2,7.4,0.9
+294,rice crisps,107,24.1,1.8,0.4
+295,parboiled white rice raw,692,149.6,13.9,1.9
+296,instant white rice cooked,193,41.4,3.6,0.8
+297,rice pilaf raw,732,155.7,21.3,2.8
+298,rice cracker cake,111,23.0,2.0,1.2
+299,parboiled white rice cooked,194,41.2,4.6,0.6
+300,white rice steamed,199,44.7,4.2,0.4
+301,brown rice cake,35,7.3,0.7,0.3
+302,glutinous white rice raw,685,151.1,12.6,1.0
+303,white rice pasta raw,600,122.8,15.3,4.0
+304,glutinous white rice cooked,169,36.7,3.5,0.3
+305,brown rice cooked,218,45.8,4.5,1.6
+306,beef flavored rice cooked,319,54.4,7.0,7.9
+307,white rice cooked,205,44.5,4.3,0.4
+308,chicken flavored rice cooked,317,54.8,6.2,8.0
+309,white rice raw,675,147.9,13.2,1.2
+310,cheese imitation,441,1.1,28.3,36.2
+311,cheshire cheese,110,1.4,6.6,8.7
+312,monterey cheese,421,0.8,27.7,34.2
+313,edam cheese,107,0.4,7.5,8.3
+314,fontina cheese,420,1.7,27.6,33.6
+315,monterey cheese low fat,350,0.8,31.9,24.4
+316,colby cheese,445,2.9,26.8,36.3
+317,american cheese,93,0.9,4.5,7.9
+318,blue cheese,106,0.7,6.4,8.6
